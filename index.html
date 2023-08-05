@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="containerOuter center">
+      <div class="container">
+        <h1 class="text-center"><span class="title">Bundle & Save</span></h1>
+
+        <label for="option1" class="option_container">
+          <div class="d-flex">
+            <input type="radio" class="radioBtn" name="option" id="option1" />
+
+            <div class="option_priceContainer">
+              <div>
+                <div class="option_pair">1 Pair</div>
+                <div class="option_price">DKK 195.00</div>
+              </div>
+
+              <div class="varities_containerOuter" id="filter1">
+                <div class="varities_container">
+                  <h4 class="varities_category">Size</h4>
+
+                  <div class="position-relative">
+                    <select class="selectSizeContainer selectContainer">
+                      <option>S</option>
+                    </select>
+                    <div class="filterNum">#1</div>
+                  </div>
+                  <div class="position-relative">
+                    <select class="selectSizeContainer selectContainer">
+                      <option>S</option>
+                    </select>
+                    <div class="filterNum">#2</div>
+                  </div>
+                </div>
+                <div class="varities_container">
+                  <h4 class="varities_category">Colour</h4>
+                  <select class="selectColorContainer selectContainer">
+                    <option>colour</option>
+                  </select>
+
+                  <select class="selectColorContainer selectContainer">
+                    <option>colour</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="discountTxt discountTxtMargin">50% OFF</h3>
+        </label>
+
+        <label for="option2" class="option_container active_option_container">
+          <div class="d-flex flex-2">
+            <input
+              type="radio"
+              class="radioBtn activeRadioBtn"
+              name="option"
+              id="option2"
+              checked
+            />
+
+            <div class="option_priceContainer">
+              <div>
+                <div class="option_pair">2 Pair</div>
+                <div class="option_price">
+                  DKK 345.00
+                  <div class="slashedTxt">DKK 195.00</div>
+                </div>
+                <div class="varities_containerOuter" id="filter2">
+                  <div class="varities_container">
+                    <h4 class="varities_category">Size</h4>
+
+                    <div class="position-relative">
+                      <select class="selectSizeContainer selectContainer">
+                        <option>S</option>
+                      </select>
+                      <div class="filterNum">#1</div>
+                    </div>
+                    <div class="position-relative">
+                      <select class="selectSizeContainer selectContainer">
+                        <option>S</option>
+                      </select>
+                      <div class="filterNum">#2</div>
+                    </div>
+                  </div>
+                  <div class="varities_container">
+                    <h4 class="varities_category">Colour</h4>
+                    <select class="selectColorContainer selectContainer">
+                      <option>colour</option>
+                    </select>
+
+                    <select class="selectColorContainer selectContainer">
+                      <option>colour</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex fd-column">
+            <div class="mostPopularTxt">Most Popular</div>
+            <h3 class="discountTxt">40% OFF</h3>
+          </div>
+        </label>
+
+        <label for="option3" class="option_container">
+          <div class="d-flex">
+            <input type="radio" class="radioBtn" name="option" id="option3" />
+
+            <div class="option_priceContainer">
+              <div>
+                <div class="option_pair">3 Pair</div>
+                <div class="option_price">DKK 528.00</div>
+              </div>
+              <div class="varities_containerOuter" id="filter3">
+                <div class="varities_container">
+                  <h4 class="varities_category">Size</h4>
+
+                  <div class="position-relative">
+                    <select class="selectSizeContainer selectContainer">
+                      <option>S</option>
+                    </select>
+                    <div class="filterNum">#1</div>
+                  </div>
+                  <div class="position-relative">
+                    <select class="selectSizeContainer selectContainer">
+                      <option>S</option>
+                    </select>
+                    <div class="filterNum">#2</div>
+                  </div>
+                </div>
+                <div class="varities_container">
+                  <h4 class="varities_category">Colour</h4>
+                  <select class="selectColorContainer selectContainer">
+                    <option>colour</option>
+                  </select>
+
+                  <select class="selectColorContainer selectContainer">
+                    <option>colour</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="discountTxt discountTxtMargin">60% OFF</h3>
+        </label>
+
+        <div class="totalPrice_container">
+          <div class="shippingTxt">Free 2 Day Shipping</div>
+          <div class="total">Total : <b> DKK 360.00 </b></div>
+        </div>
+
+        <button type="button" class="addToCartBtn">+ Add to Cart</button>
+
+        <div class="poweredByTxt">©<i> Powered by Pumper</i></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
